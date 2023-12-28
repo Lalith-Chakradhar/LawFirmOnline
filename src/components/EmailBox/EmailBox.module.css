@@ -1,0 +1,48 @@
+.emailBox{
+    width: 438px;
+    border-radius: 43px;
+    background-color: #292929;
+    color: #555555;
+}
+
+.wrapper {
+    position: relative;
+    display:flex;
+    padding-left: 25px;
+    height: 74px;
+    align-items: center;
+}
+
+.wrapper input{
+    position:relative;
+    left: 10px;
+    border:none;
+    background-color: #292929;
+    color: #555555;
+    outline: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    width: 200px;
+}
+
+.letsTalkButton {
+    cursor: pointer;
+    position: relative;
+    left: 2.5rem;
+    border:none;
+    height: 62px;
+    width:137px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E3B748;
+    border-radius: 43px;
+    color:#000000;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+
+}

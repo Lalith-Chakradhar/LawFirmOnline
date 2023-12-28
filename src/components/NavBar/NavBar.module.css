@@ -1,0 +1,40 @@
+.NavBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 47px;
+}
+
+
+.tabs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 431px;
+    height: 26px;
+    top: 63px;
+}
+
+.tabs p {
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.ContactNow{
+    display: flex;
+    cursor: pointer;
+    justify-content:center;
+    align-items: center;
+    width: 172px;
+    height: 47px;
+    top: 53px;
+    border: 2px solid #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+}

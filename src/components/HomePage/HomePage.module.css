@@ -1,0 +1,45 @@
+.homepageContainer{
+    height: 990px;
+    background-color: #111111;
+    padding-top: 53px;
+    padding-left: 153px;
+    padding-right: 153px;
+}
+
+.wrapper{
+    width: 1135px;
+    height: 636px;
+}
+
+.mainView {
+    display:flex;
+    justify-content: space-between;
+    position: relative;
+    height: 544.71px;
+    top:75px;
+}
+
+.titleWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 571px;
+    padding-top: 60px;
+}
+
+.titleText {
+font-size: 66px;
+font-weight: 500;
+line-height: 97px;
+text-align: justify;
+}
+
+.titleSubtext{
+    padding-right: 17px;
+    opacity: 30%;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;    
+}
