@@ -1,0 +1,30 @@
+.wrapper {
+    position: relative;
+    width: 1140px;
+    height: 626px;
+    top: 700px;
+    left: 146px;
+}
+
+.header {
+    display: flex;
+    justify-content:space-between;
+}
+
+.heading {  
+    width: 374px;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 77px;
+    letter-spacing: 0em;
+    margin-bottom: 97px;
+    text-align: left;
+}
+
+.buttons {
+    display: flex;
+    height: 154px;
+    width: 200px;
+    justify-content: space-between;
+    align-items: flex-end;
+}

@@ -1,6 +1,9 @@
 import React from 'react';
 import styles from "./GroupOfCards.module.css";
 import giftIcon from "../../assets/gift-icon.svg";
+import Client1 from "../../assets/clients_pictures/Jane Cooper.png";
+import Client2 from "../../assets/clients_pictures/Devon Lane.png";
+import Client3 from "../../assets/clients_pictures/Robert Fox.png";
 
 function GroupOfCards({type}) {
 
@@ -8,12 +11,10 @@ function GroupOfCards({type}) {
     switch(type) {
       case 'whyUs': {
         return (
-
            <div className={styles.wrapper}>
 
             {/*Card - 1 */}
             <div className={styles.card}> 
-            
             <div>
               <img src={giftIcon} alt=''/>
             </div>
@@ -70,9 +71,69 @@ function GroupOfCards({type}) {
       }
 
       case 'clients': {
-        return null;
-      }
+        return (
+          <div className={styles.wrapper}>
 
+            {/*Card - 1 */}
+            <div className={styles.card}>
+            <div>
+              <img src={Client1} alt=''/>
+            </div>
+            <div className={styles.heading}>
+            Jane Cooper
+            </div>
+            <div className={styles.subHeading}>
+              Ceo of Hunt
+            </div>
+            <div className={styles.text}>
+            Amet minim mollit non deserunt ullamco est
+            sit aliqua dolor do amet sint. Velit officia
+            consequatduis enim velit mollit Exer. sit
+            aliqua dolor do amet sint. Velit officia
+            </div>
+            </div>
+
+            {/*Card - 2 */}
+            <div className={styles.card} style={{backgroundColor:"#2E2E2E"}}> 
+            <div>
+              <img src={Client2} alt=''/>
+            </div>
+            <div className={styles.heading}>
+            Devon Lane
+            </div>
+            <div className={styles.subHeading}>
+              Ceo of Hunt
+            </div>
+            <div className={styles.text}>
+            Amet minim mollit non deserunt ullamco est
+            sit aliqua dolor do amet sint. Velit officia
+            consequatduis enim velit mollit Exer. sit
+            aliqua dolor do amet sint. Velit officia
+            </div>
+            </div>
+            
+            {/*Card - 3 */}
+            <div className={styles.card}> 
+            <div>
+              <img src={Client3} alt=''/>
+            </div>
+            <div className={styles.heading}>
+            Robert Fox
+            </div>
+            <div className={styles.subHeading}>
+              Ceo of Hunt
+            </div>
+            <div className={styles.text}>
+            Amet minim mollit non deserunt ullamco est
+            sit aliqua dolor do amet sint. Velit officia
+            consequatduis enim velit mollit Exer. sit
+            aliqua dolor do amet sint. Velit officia
+            </div>
+            </div>
+           </div>
+          );
+      }
+      
       default: return (<></>);
     }
   }
@@ -80,56 +141,3 @@ function GroupOfCards({type}) {
 }
 
 export default GroupOfCards;
-
-
-
-// -----------------------------------Reference for switch below-----------------
-// const getCard = (type) => {
-//   switch (type) {
-//       case "album": {
-//           const {image,likes,title,follows, songs, slug} = data;
-//           return (
-//               <Tooltip title={`${songs.length} songs`} placement="top" arrow>
-//                   <Link to="/album/${slug}">
-//                       <div className={styles.cardWrapper}> {/*Card wrapper with Main Card and Title */}
-//                           <div className={styles.card}> {/*Main Card Container*/}
-//                               <img src={image} alt="Song" loading="lazy"/> {/*image div */}
-//                               <div className={styles.banner}> {/*banner div*/}
-//                               <Chip 
-//                               label={`${follows} Follows`}
-//                               size="small"
-//                               className={styles.chip}/>
-//                               </div>
-//                           </div>
-//                           <div className={styles.cardTitleWrapper}> {/*Title */}
-//                               <p>{title}</p>
-//                           </div>
-//                       </div>
-//                   </Link>
-//               </Tooltip>
-//           )
-//       }
-
-//       case "song": {
-//           const {image,likes,title} = data;
-//           return (
-//               <div className={styles.cardWrapper}> {/*Card wrapper with Main Card and Title */}
-//                   <div className={styles.card}> {/*Main Card Container*/}
-//                       <img src={image} alt="Song" loading="lazy"/> {/*image div */}
-//                       <div className={styles.banner}> {/*banner div*/}
-//                           <div className={styles.pill}> {/*pill div */}
-//                               <p>{likes} Likes</p>
-//                           </div>
-//                       </div>
-//                   </div>
-//                   <div className={styles.cardTitleWrapper}> {/*Title */}
-//                       <p>{title}</p>
-//                   </div>
-//               </div>
-//           )
-//       }
-
-//       default: return (<></>);
-//   }
-// }
-// return getCard(type);
