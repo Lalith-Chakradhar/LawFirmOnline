@@ -1,0 +1,48 @@
+
+
+.wrapper{
+    position: relative;
+    display: flex;
+    justify-content: space-between !important;
+    align-items: flex-start;
+    width: 1132px;
+    height: 174px;
+    top: 200px;
+    left: 150px;
+}
+
+
+.heading {
+    width: 387px;
+    height: 174px;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 87px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: relative;
+    top: 13px;
+}
+
+.verticalLine {
+    border: 1px solid #6A6A6A;
+    height: inherit;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+
+}
+
+.subText {
+    position: relative;
+    width: 475px;
+}
+
+.subText p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+}

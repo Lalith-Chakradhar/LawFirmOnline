@@ -1,0 +1,16 @@
+.wrapper {
+    position: relative;
+    width: 1139px;
+    height: 551px;
+    top: 370px;
+    left: 146px;
+}
+
+.heading {
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 77px;
+    letter-spacing: 0em;
+    margin-bottom: 97px;
+    text-align: center;
+}

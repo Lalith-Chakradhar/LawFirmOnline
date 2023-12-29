@@ -1,15 +1,17 @@
 import './App.css';
 import HomePage from './components/HomePage/HomePage';
 import Introduction from "./components/Introduction/Introduction";
+import WhyUs from "./components/WhyUs/WhyUs";
+import AreaOfPractices from "./components/AreaOfPractices/AreaOfPractices";
 
 function App() {
   return (
     <>
     <HomePage/>
     <Introduction/>
-    {/*<WhyUs/>
+    <WhyUs/>
     <AreaOfPractices/>
-    <Clients/>
+    {/*<Clients/>
     <OurTeam/>
     <FAQ/>
     <Subscribe/>
