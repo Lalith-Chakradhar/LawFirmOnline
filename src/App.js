@@ -4,6 +4,7 @@ import Introduction from "./components/Introduction/Introduction";
 import WhyUs from "./components/WhyUs/WhyUs";
 import AreaOfPractices from "./components/AreaOfPractices/AreaOfPractices";
 import Clients from "./components/Clients/Clients";
+import OurTeam from "./components/OurTeam/OurTeam";
 
 function App() {
   return (
@@ -13,8 +14,8 @@ function App() {
     <WhyUs/>
     <AreaOfPractices/>
     <Clients/>
-    {/*<OurTeam/>
-    <FAQ/>
+    <OurTeam/>
+    {/*<FAQ/>
     <Subscribe/>
     <Footer/> */}
     </>
