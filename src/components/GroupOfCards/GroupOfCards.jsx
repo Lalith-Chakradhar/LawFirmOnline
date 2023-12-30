@@ -4,8 +4,13 @@ import giftIcon from "../../assets/gift-icon.svg";
 import Client1 from "../../assets/clients_pictures/Jane Cooper.png";
 import Client2 from "../../assets/clients_pictures/Devon Lane.png";
 import Client3 from "../../assets/clients_pictures/Robert Fox.png";
+import SwiperCore, { Navigation } from 'swiper';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/swiper-bundle.min.css';
 
-function GroupOfCards({type}) {
+SwiperCore.use([Navigation]);
+
+function GroupOfCards({type, handleSlideChange}) {
 
   const getCards = (type) => {
     switch(type) {
@@ -73,8 +78,15 @@ function GroupOfCards({type}) {
       case 'clients': {
         return (
           <div className={styles.wrapper}>
-
+            <Swiper navigation={{ nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev' }} 
+            onSlideChange={handleSlideChange}
+            slidesPerView={3}
+            spaceBetween={20} // Adjust the space between cards
+            loop={true}
+            >
+            
             {/*Card - 1 */}
+            <SwiperSlide>
             <div className={styles.card}>
             <div>
               <img src={Client1} alt=''/>
@@ -92,8 +104,10 @@ function GroupOfCards({type}) {
             aliqua dolor do amet sint. Velit officia
             </div>
             </div>
+            </SwiperSlide>
 
             {/*Card - 2 */}
+            <SwiperSlide>
             <div className={styles.card} style={{backgroundColor:"#2E2E2E"}}> 
             <div>
               <img src={Client2} alt=''/>
@@ -111,8 +125,10 @@ function GroupOfCards({type}) {
             aliqua dolor do amet sint. Velit officia
             </div>
             </div>
+            </SwiperSlide>
             
             {/*Card - 3 */}
+            <SwiperSlide>
             <div className={styles.card}> 
             <div>
               <img src={Client3} alt=''/>
@@ -130,6 +146,8 @@ function GroupOfCards({type}) {
             aliqua dolor do amet sint. Velit officia
             </div>
             </div>
+            </SwiperSlide>
+            </Swiper>
            </div>
           );
       }

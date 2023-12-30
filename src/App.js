@@ -5,6 +5,7 @@ import WhyUs from "./components/WhyUs/WhyUs";
 import AreaOfPractices from "./components/AreaOfPractices/AreaOfPractices";
 import Clients from "./components/Clients/Clients";
 import OurTeam from "./components/OurTeam/OurTeam";
+import FAQ from "./components/FAQ/FAQ";
 
 function App() {
   return (
@@ -15,8 +16,8 @@ function App() {
     <AreaOfPractices/>
     <Clients/>
     <OurTeam/>
-    {/*<FAQ/>
-    <Subscribe/>
+    <FAQ/>
+    {/*<Subscribe/>
     <Footer/> */}
     </>
   );

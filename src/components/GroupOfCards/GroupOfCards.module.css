@@ -7,6 +7,7 @@
 
 .card {
     width: 309px;
+    height: 325.400px;
     padding: 25px;
     display: flex;
     flex-direction: column;
