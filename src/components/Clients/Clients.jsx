@@ -12,8 +12,6 @@ function Clients() {
   const { setSelectedNext } = useContext(ClientsContext);
 
   const handleSlideChange = (pl) => {
-    // Get the current card color
-    // console.log(pl);
     setSelectedNext(pl);
     const activeCard = document.querySelector(".swiper-slide-active");
     activeCard.setAttribute("data-color", currentColor);

@@ -11,8 +11,27 @@
     width: 564px;
 }
 
+.heading{
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 75px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.headingText{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 29px;
+    text-align: left;
+    opacity: 30%;
+    padding-right: 170px;
+}
+
 .faqsBox{
     width: 564px;
+    padding-top: 55px;
     display: flex;
     flex-direction: column;
     gap: 0;

@@ -15,7 +15,7 @@ export const ClientsProvider = ({ children }) => {
       description:
         "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer. sit aliqua dolor do amet sint. Velit officia",
       image: Client1,
-      selected: true,
+      selected: false,
     },
     {
       id: "1411",
@@ -24,7 +24,7 @@ export const ClientsProvider = ({ children }) => {
       description:
         "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequatduis enim velit mollit Exer. sit aliqua dolor do amet sint. Velit officia",
       image: Client2,
-      selected: false,
+      selected: true,
     },
     {
       id: "1311",
