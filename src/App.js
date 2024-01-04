@@ -7,6 +7,7 @@ import Clients from "./components/Clients/Clients";
 import OurTeam from "./components/OurTeam/OurTeam";
 import FAQ from "./components/FAQ/FAQ";
 import Subscribe from "./components/Subscribe/Subscribe";
+import Footer from "./components/Footer/Footer";
 import { ClientsProvider } from "./context/ClientsContext";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <OurTeam />
       <FAQ />
       <Subscribe/>
+      <Footer/>
     </ClientsProvider>
   );
 }
