@@ -6,6 +6,7 @@ import AreaOfPractices from "./components/AreaOfPractices/AreaOfPractices";
 import Clients from "./components/Clients/Clients";
 import OurTeam from "./components/OurTeam/OurTeam";
 import FAQ from "./components/FAQ/FAQ";
+import Subscribe from "./components/Subscribe/Subscribe";
 import { ClientsProvider } from "./context/ClientsContext";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Clients />
       <OurTeam />
       <FAQ />
+      <Subscribe/>
     </ClientsProvider>
   );
 }
